@@ -20,8 +20,8 @@ request.onload = function () {
       pplats.setAttribute('class', 'pplats');
 
       const h1 = document.createElement('h1');
-      h1.textContent = pplatser.namn;
-      console.log(pplatser.namn)
+      h1.textContent = pplatser.fields.namn;
+      console.log(pplatser.fields.namn)
     //  const p = document.createElement('p');
     //  persons.description = persons.description.substring(0, 300);
     //  p.textContent = `${persons.description}...`;
